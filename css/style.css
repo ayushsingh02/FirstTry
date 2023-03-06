@@ -1,0 +1,257 @@
+@import 'utilities.css';
+:root{
+  --primary:#3DCFD3;
+  --dark:#000000;
+  --pure:#ffff;
+  --turnary:#898989;
+  --light:#f2f2f2; 
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* *{
+  border:solid 1px red;
+} */
+/*------------ NAVIGATION--------- */
+.img{
+max-width: 100%;
+height: 50px;;
+margin-left: 2px;
+margin-top: 15px;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  -webkit-font-smotthing:antialias;
+}
+header{
+  background-color: var(--dark);
+  height:450px;
+}
+.container{
+  max-width:1152px;
+  padding:0 10px;
+  margin: 0 auto;
+  margin-bottom: -30px;
+}
+header nav .left a:hover{
+  color:var(--primary);
+}
+header nav .left a{
+  color:var(--pure);
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: .3s ease;
+
+}
+header nav{
+  padding: 1rem 0px;
+}
+header nav .branding
+{
+  margin-left:250px; 
+}
+header nav .branding a{
+  margin-right: 2rem;
+}
+.btn{
+  padding: 0.8rem 2rem;
+  font-size: 0.8.5rem;
+  font-weight: 600;
+  cursor:pointer;
+  background-color: var(--primary);
+  color:var(--dark);
+  border:1px solid var(--primary);
+  border-radius: 5px;
+}
+.btn:hover{
+background-color: var(--light);
+}
+/*------------ INTRODUCTION--------- */
+
+.intro .right{
+  height:400px;
+  width:350px;
+  
+}
+.intro .left {
+  color:var(--light);
+  text-align: right;
+  padding-right:100px;
+  padding-bottom: 100px;
+
+}
+.intro .left h1{
+ font-size: 50px;
+
+}
+#dev{
+  text-align: center;
+  font-weight: 500;
+}
+#name{
+  color: var(--primary);
+}
+.ayush{
+  height: 355px;
+  width: 305px;
+  
+  margin-left: 140px;
+  margin-right: auto;
+  margin-top: -18px;
+}
+/*About*/
+#me{
+  color:var(--primary);
+}
+.about .container{
+  height: 480px;
+  width:680px;
+  border: 3.5px solid var(--dark);
+  padding-top:20px;
+  margin-top: 15px;
+}
+#abt{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+#para{
+  color:var(--turnary);
+  /* font-family: 'Lato', sans-serif; */
+  font-size: 18px;
+}
+section .about .social{
+  width:35px;
+  height:35px;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+.a1{
+  height: 70px;
+  
+ align-items: center;
+ align-items: center;
+ display:flex;
+ padding-right: 1rem;
+ padding-left: 1rem;
+ margin-top:15px;
+ margin-bottom:10px;
+ }
+.social a:hover{
+transform: scale(1.2);
+}
+
+/*Skills*/
+
+.work-heading{
+font-size: 40px;
+text-align: center;
+margin-top: 50px;
+text-transform: uppercase;
+}
+
+#our{
+  color:var(--primary);
+}
+
+#dis{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color:var(--dark);
+  margin-bottom: 5rem;
+  padding-top: 30px;
+  line-height: 0.5;
+
+}
+
+
+#brush{
+  height:50px;
+}
+.container5{
+  display: flex;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 15px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* Work*/
+#design{
+  text-transform: uppercase;
+  color:var(--dark);
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 70px;
+}
+#design2{
+  color:var(--primary);
+}
+#workwork{
+  font-size: 40px;
+  color:var(--turnary);
+  text-align: center;
+}
+/*Contact info*/
+#contact{
+  
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.contact-us1{
+  float:left; 
+  width:33%;
+  height:150px;
+  text-align: center;
+  background-color: rgba(69, 185, 194, 0.479);
+  border-radius: 20px;
+  
+}
+
+  .contact-us2{
+  float:left;    
+  width:33%;
+  height:150px;
+  text-align: center;
+  }
+  .contact-us3{
+  float:right;
+  width:33%;
+  height:150px;
+  text-align: center;
+  background-color: rgba(69, 185, 194, 0.479);
+  border-radius: 20px;
+  }
+  .contact-container{
+    margin-bottom: 100px;
+    padding-bottom: 60px;
+  }
+
+#end{
+  text-align: center;
+  background-color: rgb(151, 151, 151);
+}
+  
+
+
+
+
+
+
+
+
+
+
